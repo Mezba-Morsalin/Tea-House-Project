@@ -1,4 +1,9 @@
 * {
     font-family: "Manrope", sans-serif;
 }
-@import "tailwindcss"
+@media screen and (max-width: 576px) {
+    .position  {
+        top: 200px;
+        left: 50px;
+    }
+}
