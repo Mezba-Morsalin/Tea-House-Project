@@ -6,4 +6,25 @@
         top: 200px;
         left: 50px;
     }
+    .responsive-client {
+        top: 0;
+        left: 0;
+    }
+    .meet {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 80px;
+        padding: 40px 0;
+    }
+    .cards {
+        width: 100%;
+        margin: 0 auto;
+        top: 150px;
+        left: 5px;
+    }
+    .cards2 {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
