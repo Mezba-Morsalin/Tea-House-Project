@@ -1,6 +1,9 @@
 * {
     font-family: "Manrope", sans-serif;
 }
+.menubar {
+    display: none !important;
+}
 @media screen and (max-width: 576px) {
     .position  {
         top: 200px;
@@ -23,8 +26,14 @@
         top: 150px;
         left: 5px;
     }
-    .cards2 {
+    .cards2, .footer {
         width: 90%;
         margin: 0 auto;
+    }
+    .menubar {
+    display: block !important;
+    }
+    .menus {
+        display: none !important;
     }
 }
